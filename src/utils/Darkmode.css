@@ -1,0 +1,12 @@
+/* Dark Mode Styles */
+.dark-mode {
+    background-color: #1f1f1f; /* Dark background color */
+    color: #ffffff; /* Light text color */
+  }
+  
+  .dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6 {
+    color: #ffffff; /* Light headings color */
+  }
+  
+  /* Add more styles for dark mode as needed */
+  

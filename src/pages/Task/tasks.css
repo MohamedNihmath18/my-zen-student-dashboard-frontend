@@ -1,0 +1,48 @@
+.task__submission {
+    min-height: calc(100vh - 120px);
+    padding: 10px;
+  }
+  .task__container {
+    max-width: 768px;
+    border: 2px solid #efefef;
+    border-radius: 16px;
+    padding: 16px 24px;
+    margin: 0 auto 8px !important;
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .task__container:hover {
+    box-shadow: 0 0 5px var(--theme);
+  }
+  
+  .flexCont {
+    display: flex;
+    justify-content: space-between;
+  }
+  .title {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    color: var(--secondary);
+  }
+  .secondaryGreyTextColor {
+    color: #7e8e9f;
+  }
+  .marktag {
+    border: 1px solid #ff9a28;
+    background: #fff;
+    color: #ff9a28;
+    min-width: 225px;
+    text-align: center;
+  }
+  .tasktag {
+    background: #ffebd5;
+    color: #ff9a28;
+  }
+  .padding__left {
+    padding-left: 50px;
+  }
+  

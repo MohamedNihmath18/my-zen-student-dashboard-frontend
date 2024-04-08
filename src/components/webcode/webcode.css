@@ -1,0 +1,20 @@
+.modal-dialog {
+    max-width: 800px !important;
+    min-width: 400px !important;
+  }
+ .btn-success{
+    background-color: var(--theme);
+ }
+ .task__container:hover{
+   box-shadow: none !important;
+   background-color:rgb(247, 245, 252);
+ }
+ .submit__capstone {
+   padding: 5px 15px;
+   background-color: var(--theme);
+   border-radius: 5px;
+   color: white;
+   outline: none;
+   border: none;
+   /* transition: 0.3s; */
+ }

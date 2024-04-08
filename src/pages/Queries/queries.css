@@ -1,0 +1,31 @@
+
+  .addBtn{
+    border: 1px solid var(--theme);
+    transition: .3s;
+    background-color: var(--theme);
+    color:white;
+  }
+  .modal-body {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.submit__queries {
+    padding: 5px 15px;
+    background-color: var(--theme);
+    border-radius: 5px;
+    color: white;
+    outline: none;
+    border: none;
+    transition: 0.3s;
+  }
+  .submit__queries:hover {
+    letter-spacing: 1px;
+    /* scale: 1.1; */
+    background-color: var(--theme);
+  }
+  .task__container{
+    width:100% !important;
+  }

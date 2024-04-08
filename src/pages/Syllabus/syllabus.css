@@ -1,0 +1,35 @@
+.syllabus {
+    height: 350px;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+  }
+  .syllabus__container {
+    padding: 10px;
+    border-radius:20px;
+    min-width: 350px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    color: white;
+    text-align: center;
+  }
+  .doc__title {
+    color: var(--theme);
+    background-color:rgb(247, 245, 252);
+    font-size: 14px;
+    font-weight: 500;
+    height:50px;
+    border-radius: 10px;
+    padding-top: 10px;
+    position: relative;
+    
+  }
+
+ 
+  .downlaod__syllabus:hover {
+    letter-spacing: 2px;
+    color: var(--theme);
+    text-shadow: 0 0 5px #fff;
+  }
+  

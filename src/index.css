@@ -1,0 +1,123 @@
+@media screen and (max-width: 992px) {
+  .roadmap .main__container {
+    flex-direction: column;
+  }
+  .roadmap .main__container .left {
+    -webkit-order: 2;
+    order: 2;
+  }
+  .sessionsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 16px;
+  }
+  .step__left,
+  .step__right {
+    display: none;
+  }
+  .step__bottom {
+    display: none;
+  }
+  .roadmap__area {
+    width: auto;
+  }
+  .task__container {
+    max-width: 768px;
+    margin: 0 auto 8px 70px !important;
+  }
+  .leave .task__container,
+  .mock .task__container {
+    margin: 0 auto 8px !important;
+  }
+  .progress__head {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .navbar__side:hover {
+    width: 250px;
+  }
+  .navbar__side:hover .nav__header {
+    padding-left: 10px;
+  }
+  .navbar__side:hover .user,
+  .navbar__side:hover .nav__title {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .top__header .heading {
+    font-size: 36px;
+  }
+  .user__name {
+    display: none;
+  }
+  .flexCont {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .flexCont__data {
+    text-align: center;
+  }
+  .leader__leaderboard h2 {
+    font-size: 24px;
+  }
+  .nav__toggle {
+    height: 40px;
+    width: 40px;
+    opacity: 1;
+  }
+  .navbar__side.active {
+    width: 250px;
+  }
+  .navbar__side.active .user,
+  .navbar__side.active .nav__title {
+    opacity: 1;
+  }
+  .navbar__side.active .nav__header {
+    padding-left: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .top__header .heading {
+    font-size: 24px;
+  }
+  .classhead {
+    font-size: 20px;
+  }
+  .codekata,
+  .webkata {
+    min-width: 250px;
+  }
+  .codekata .score,
+  .webkata .score {
+    font-size: 24px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  .sessionsContainer {
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .top__header .heading {
+    font-size: 20px;
+  }
+  .user__logo {
+    height: 45px;
+    width: 45px;
+    font-size: 24px;
+  }
+  .modal-dialog {
+    max-width: 800px !important;
+    min-width: 360px !important;
+  }
+  .task__container {
+    padding: 15px;
+  }
+}
+
