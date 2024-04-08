@@ -2,7 +2,7 @@ import axios from "axios";
 
 const instance = axios.create({
   // .. congigure axios baseURL
-  baseURL:  "http://localhost:3001"
+  baseURL:  "https://my-zen-student-dashboard-backend.onrender.com"
 });
 
 export default instance;
