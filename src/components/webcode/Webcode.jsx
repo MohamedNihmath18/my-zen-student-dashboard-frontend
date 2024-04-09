@@ -132,10 +132,10 @@ const Webcode = () => {
                                             <li>Also display the image and product link.</li>
                                             <li>Display the description of the product.</li>
                                         </ul>
-                                        <p><strong>Any basic hints to solve?</strong></p>
-                                        <p>https://nationalize.io/</p>
+                                        {/* <p><strong>Any basic hints to solve?</strong></p>
+                                        <p>https://.io/</p>
                                         <p>https://nationalize.io/#responses/</p>
-                                        <p><strong>Terms and Conditions?</strong></p>
+                                        <p><strong>Terms and Conditions?</strong></p> */}
                                         <ul>
                                             <li>You have 24 hours to complete before the deadline</li>
                                             <li>Raise a query ticket only in the Zen portal and
